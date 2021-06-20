@@ -168,6 +168,7 @@ h2{
     font-size: 18px;
     line-height: 27px;
     color: #F2F2F2;
+    outline: none;
 }
 .join1:hover,.join2:hover{
     background-color:rgb(6, 108, 190);
@@ -251,6 +252,7 @@ h3{
     background: #E0E0E0;
     border-radius: 12px;
     cursor: pointer;
+    outline: none;
 }
 .ferect{
     position: absolute;
@@ -316,6 +318,7 @@ h3{
     background:  #2D9CDB;
     border-radius: 12px;
     cursor: pointer;
+    outline: none;
 }
 
 .beicon{
@@ -371,6 +374,7 @@ h3{
     background: #E0E0E0;
     border-radius: 12px;
     cursor: pointer;
+    outline: none;
 }
 
 /*........ styling our works........*/

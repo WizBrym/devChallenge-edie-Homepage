@@ -255,6 +255,7 @@ h3{
     background: #E0E0E0;
     border-radius: 12px;
     cursor: pointer;
+    outline: none;
 }
 .ferect{
     position: absolute;
@@ -320,6 +321,7 @@ h3{
     background:  #2D9CDB;
     border-radius: 12px;
     cursor: pointer;
+    outline: none;
 }
 
 .beicon{
@@ -375,6 +377,7 @@ h3{
     background: #E0E0E0;
     border-radius: 12px;
     cursor: pointer;
+    outline: none;
 }
 
 /*........ styling our works........*/
@@ -722,6 +725,7 @@ a{
     font-size: 18px;
     line-height: 27px;
     color: #F2F2F2;
+    outline: none;
 }
 .logo2{
     position: absolute;

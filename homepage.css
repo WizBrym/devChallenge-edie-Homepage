@@ -1,1 +1,1551 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Playfair+Display:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
 
+.container{
+    position: relative;
+    width: 1440px;
+    height: 5835px;
+    background: #ffff;
+    border-radius: 8px;
+
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+/*........ styling heading........*/
+.logo1{
+    position: absolute;
+    width: 70px;
+    height: 53px;
+    left: 52px;
+    top: 42px;
+
+    font-family: "Heebo";
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #333333;
+}
+
+.header{
+    position: absolute;
+    width: 703px;
+    height: 36px;
+    left: 681px;
+    top: 51px;
+
+    font-size: 24px;
+    line-height: 36px;
+}
+.dropdown{
+    display: none ;
+}
+.home:hover,.service:hover,.ourwork:hover,.client:hover,.contact:hover{
+    color: gray;
+}
+.home{
+    color: #333333;
+    list-style:none;
+}
+.service{
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    color: #333333;
+}
+.ourwork{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    color: #333333;
+}
+.client{
+    position: absolute;
+    top: 0px;
+    left: 480px;
+    color: #333333;
+}
+.contact{
+    position: absolute;
+    top: 0px;
+    left: 605px;
+    color: #333333;
+}
+
+.unhappy{
+    position: absolute;
+    width: 256px;
+    height: 27px;
+    left: 277px;
+    top: 191px;
+
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+}
+h1{
+    position: absolute;
+    width: 543px;
+    height: 144px;
+    left: 277px;
+    top: 234px;
+
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #333333;
+}
+.image1{
+    position: absolute;
+    width: 1332px;
+    height: 354px;
+    left: 52px;
+    top: 420px;
+    border-radius: 18px;
+}
+h2{
+    position: absolute;
+    width: 366px;
+    height: 141px;
+    left: 277px;
+    top: 816px;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #333333;
+}
+.text{
+    position: absolute;
+    width: 366px;
+    height: 137px;
+    left: 277px;
+    top: 999px;
+
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+}
+.wc1{
+    position: absolute;
+    width: 172px;
+    height: 21px;
+    left: 277px;
+    top: 1178px;
+
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+.email1{
+    position: absolute;
+    width: 350px;
+    height: 57px;
+    left: 277px;
+    top: 1208px;
+    font-family: "Poppins";
+    font-weight: 500;
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+.join1{
+    position: absolute;
+    width: 94px;
+    height: 49px;
+    left: 543px;
+    top: 1213px;
+
+    background: #2D9CDB;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F2F2F2;
+    outline: none;
+}
+.join1:hover,.join2:hover{
+    background-color:rgb(6, 108, 190);
+}
+::placeholder{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: gray;
+}
+
+/*........ styling services........*/
+
+h3{
+    position: absolute;
+    width: 346px;
+    height: 108px;
+    left: 165px;
+    top: 1465px;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #333333;
+}
+.uxicon{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 200px;
+    top: 1661px;
+
+    background: #2D9CDB;
+    border-radius: 16px;
+}
+.ui{
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 200px;
+    top: 1763px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.uxspec{
+    position: absolute;
+    width: 283px;
+    height: 96px;
+    left: 200px;
+    top: 1823px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4F4F4F;
+}
+.uxget{
+    position: absolute;
+    width: 116px;
+    height: 42px;
+    left: 198px;
+    top: 1949px;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    border: none;
+    background: #E0E0E0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.ferect{
+    position: absolute;
+    width: 341px;
+    height: 422px;
+    left: 547px;
+    top: 1615px;
+    
+    border-radius: 24px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    
+}
+.feicon{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 581px;
+    top: 1661px;
+
+    background: #27AE60;
+    border-radius: 16px;
+    transform: rotate(90deg);
+}
+.fe{
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 581px;
+    top: 1763px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.fespec{
+    position: absolute;
+    width: 273px;
+    height: 96px;
+    left: 581px;
+    top: 1823px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4F4F4F;
+}
+.feget{
+    position: absolute;
+    width: 116px;
+    height: 42px;
+    left: 581px;
+    top: 1949px;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    border: none;
+    background:  #2D9CDB;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.beicon{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 959px;
+    top: 1661px;
+
+    background: #EB5757;
+    border-radius: 16px;
+}
+
+.be{
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 963px;
+    top: 1763px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.bespec{
+    position: absolute;
+    width: 273px;
+    height: 96px;
+    left: 963px;
+    top: 1823px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4F4F4F;
+}
+.beget{
+    position: absolute;
+    width: 116px;
+    height: 42px;
+    left: 960px;
+    top: 1949px;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    border: none;
+    background: #E0E0E0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/*........ styling our works........*/
+
+.h3a{
+    position: absolute;
+    width: 448px;
+    height: 108px;
+    left: 165px;
+    top: 2200px;
+    font-size: 36px;
+    line-height: 54px;
+}
+.photo1{
+    position: absolute;
+    width: 534px;
+    height: 534px;
+    left: 165px;
+    top: 2527px;
+    border-radius: 8px;   
+}
+.fs{
+    position: absolute;
+    width: 184px;
+    height: 26px;
+    left: 165px;
+    top: 3092px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #828282;
+}
+.sh{
+    position: absolute;
+    width: 368px;
+    height: 45px;
+    left: 165px;
+    top: 3118.09px;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.photo2{
+    position: absolute;
+    width: 543px;
+    height: 544px;
+    left: 730px;
+    top: 2351px;
+    border-radius: 24px;
+}
+.ux{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 730px;
+    top: 2915px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #828282;
+}
+.onboard{
+    position: absolute;
+    width: 361px;
+    height: 36px;
+    left: 730px;
+    top: 2941px;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.photo3{
+    position: absolute;
+    width: 545px;
+    height: 562px;
+    left: 165px;
+    top: 3305px;
+
+    border-radius: 24px;
+}
+.ma{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 169px;
+    top: 3887px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #828282;
+}
+.bs{
+    position: absolute;
+    width: 372px;
+    height: 47px;
+    left: 169px;
+    top: 3914px;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.photo4{
+    position: absolute;
+    width: 543px;
+    height: 546px;
+    left: 730px;
+    top: 3132px;
+
+    border-radius: 24px;
+}
+.fea{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 730px;
+    top: 3698px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #828282;
+}
+.jp{
+    position: absolute;
+    width: 374px;
+    height: 46px;
+    left: 730px;
+    top: 3724px;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.seemore{
+    position: absolute;
+    width: 116px;
+    height: 36px;
+    left: 1116px;
+    top: 3904px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #2D9CDB;
+}
+.seemore1{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1242px;
+    top: 3910px;
+    background: #2D9CDB;
+    cursor: pointer;
+}
+.seemore1:hover{
+    background-color:rgb(6, 108, 190); ;
+}
+
+  /*........ styling the Team part........*/
+
+.teamw{
+    position: absolute;
+    width: 280px;
+    height: 27px;
+    left: 170px;
+    top: 4313px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #EB5757;
+}
+.h3b{
+    position: absolute;
+    width: 280px;
+    height: 162px;
+    left: 170px;
+    top: 4347px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #333333;
+}
+.teamspec{
+    position: absolute;
+    width: 273px;
+    height: 48px;
+    left: 170px;
+    top: 4553px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+.person3{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 638px;
+    top: 4301px;
+
+    background: #C4C4C4;
+    border-radius: 24px;
+}
+.person1{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 982px;
+    top: 4181px;
+
+    background: #C4C4C4;
+    border-radius: 24px;
+}
+.person2{
+    position: absolute;
+    width: 291px;
+    height: 300px;
+    left: 982px;
+    top: 4465px;
+
+    background: #C4C4C4;
+    border-radius: 24px;
+}
+.teamf{
+    position: absolute;
+    width: 937px;
+    height: 162px;
+    left: 165px;
+    top: 4961px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #333333;
+}
+.person4{
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 165px;
+    top: 5168px;
+
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.ct{
+    position: absolute;
+    width: 155px;
+    height: 36px;
+    left: 277px;
+    top: 5172px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.ctpost{
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    left: 277px;
+    top: 5220px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #828282;
+}
+
+
+ /*........ styling the Footer........*/
+ 
+.fbackground{
+    position: absolute;
+    width: 1440px;
+    height: 385px;
+    left: -2px;
+    top: 5450px;
+
+    background: #100E1D;
+}
+ul{
+    position: absolute;
+    width: 100px;
+    height: 180px;
+    left: 166px;
+    top: 5496px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    list-style: none; 
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.wc2{
+    position: absolute;
+    width: 182px;
+    height: 21px;
+    left: 953px;
+    top: 5499px;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #828282;
+}
+.email2{
+    position: absolute;
+    width: 350px;
+    height: 57px;
+    left: 953px;
+    top: 5529px;
+    font-family: "Poppins";
+    font-weight: 500;
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+.join2{
+    position: absolute;
+    width: 94px;
+    height: 49px;
+    left: 1217px;
+    top: 5534px;
+
+    border: none;
+    background: #2D9CDB;
+    border-radius: 12px;
+    cursor: pointer;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F2F2F2;
+}
+.logo2{
+    position: absolute;
+    width: 70px;
+    height: 53px;
+    left: 503px;
+    top: 5496px;
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #F2F2F2;
+}
+.ig{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 503px;
+    top: 5556px;
+    cursor: pointer;
+}
+.li{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 538px;
+    top: 5556px;
+    cursor: pointer;
+}
+.twi{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 573px;
+    top: 5558px;
+    cursor: pointer;
+}
+
+p{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    top: 5794px;
+    left: 576px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+
+/*------styling for mobile screen 375x2000------------*/
+
+@media screen and (max-width:375px) {
+    body{
+        margin: 0px;
+    }
+    .container{
+        position: relative;
+        width: 375px;
+        height: 6164px;
+        background: #ffff;
+        border-radius: 8px;
+    
+        font-family: "Poppins";
+        font-weight: 500;
+    }
+    
+    /*........ styling heading........*/
+    .logo1{
+        position: absolute;
+        width: 47px;
+        height: 35px;
+        left: 10px;
+        top: 13px;
+    
+        font-family: "Heebo";
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 35px;
+    
+        color: #333333;
+    }
+    .header{
+        display:none;
+    }
+
+    /*........ styling the dropdown........*/
+    
+    .dropicon{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 337px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-con{
+        display: none;
+        position: absolute;
+        left: 240px;
+        top: 20px;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index:1;
+    }
+    .dropdown-con a{
+        display: block;
+        color: #333333;
+        padding: 12px 16px;
+    }
+    .dropdown-con a:hover{
+        background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-con{
+        display: block;
+    }
+    
+    .unhappy{
+        position: absolute;
+        width: 171px;
+        height: 18px;
+        left: 40px;
+        top: 96px;
+    
+        font-size: 12px;
+        line-height: 18px;
+        color: #2D9CDB;
+    }
+    h1{
+        position: absolute;
+        width: 272px;
+        height: 72px;
+        left: 40px;
+        top: 114px;
+    
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .image1{
+        position: absolute;
+        width: 348px;
+        height: 145px;
+        left: 10px;
+        top: 201px;
+        border-radius: 18px;
+    }
+    h2{
+        position: absolute;
+        width: 227px;
+        height: 58px;
+        left: 40px;
+        top: 368px;
+    
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .text{
+        position: absolute;
+        width: 275px;
+        height: 74px;
+        left: 40px;
+        top: 459px;
+    
+        font-family: "Poppins";
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #4F4F4F;
+    }
+    .wc1{
+        position: absolute;
+        width: 232px;
+        height: 21px;
+        left: 40px;
+        top: 564px;
+    
+        font-size: 10px;
+        line-height: 15px;
+        color: #828282;
+    }
+    .email1{
+        position: absolute;
+        width: 291px;
+        height: 47px;
+        left: 40px;
+        top: 585px;
+        font-family: "Poppins";
+        font-weight: 500;
+        background: #F2F2F2;
+        border-radius: 12px;
+        padding-left: 15px;
+        border: none;
+        outline: none;
+    }
+    .join1{
+        position: absolute;
+        width: 71px;
+        height: 39px;
+        left: 270px;
+        top: 590px;
+    
+        background: #2D9CDB;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #F2F2F2;
+    }
+    .join1:hover,.join2:hover{
+        background-color:rgb(6, 108, 190);
+    }
+    ::placeholder{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    
+        color: gray;
+    }
+    
+    /*........ styling services........*/
+
+    h3{
+        position: absolute;
+        width: 259px;
+        height: 72px;
+        left: 49px;
+        top: 734px;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .uxicon{
+        position: absolute;
+        width: 67px;
+        height: 67px;
+        left: 50px;
+        top: 898px;
+    
+        background: #2D9CDB;
+        border-radius: 16px;
+    }
+    .ui{
+        position: absolute;
+        width: 160px;
+        height: 36px;
+        left: 50px;
+        top: 1000px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .uxspec{
+        position: absolute;
+        width: 283px;
+        height: 96px;
+        left: 50px;
+        top: 1060px;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    
+        color: #4F4F4F;
+    }
+    .uxget{
+        position: absolute;
+        width: 116px;
+        height: 42px;
+        left: 48px;
+        top: 1186px;
+    
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    
+        border: none;
+        background: #E0E0E0;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    .ferect{
+        position: absolute;
+        width: 341px;
+        height: 422px;
+        left: 15px;
+        top: 1346px;
+        box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+        border-radius: 24px;
+    }
+    .feicon{
+        position: absolute;
+        width: 67px;
+        height: 67px;
+        left: 49px;
+        top: 1395px;
+    
+        background: #27AE60;
+        border-radius: 16px;
+        transform: rotate(90deg);
+    }
+    .fe{
+        position: absolute;
+        width: 120px;
+        height: 36px;
+        left: 49px;
+        top: 1497px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .fespec{
+        position: absolute;
+        width: 273px;
+        height: 96px;
+        left: 49px;
+        top: 1557px;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    
+        color: #4F4F4F;
+    }
+    .feget{
+        position: absolute;
+        width: 116px;
+        height: 42px;
+        left: 49px;
+        top: 1683px;
+    
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    
+        border: none;
+        background: #2d9ccb;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    .beicon{
+        position: absolute;
+        width: 67px;
+        height: 67px;
+        left: 49px;
+        top: 1854px;
+    
+        background: #EB5757;
+        border-radius: 16px;
+    }
+    
+    .be{
+        position: absolute;
+        width: 120px;
+        height: 36px;
+        left: 49px;
+        top: 1956px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .bespec{
+        position: absolute;
+        width: 273px;
+        height: 96px;
+        left: 49px;
+        top: 2016px;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    
+        color: #4F4F4F;
+    }
+    .beget{
+        position: absolute;
+        width: 116px;
+        height: 42px;
+        left: 46px;
+        top: 2142px;
+    
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    
+        border: none;
+        background: #E0E0E0;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    /*........ styling our works........*/
+
+    .h3a{
+        position: absolute;
+        width: 267px;
+        height: 72px;
+        left: 45px;
+        top: 2330px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .photo1{
+        position: absolute;
+        width: 351px;
+        height: 351px;
+        left: 10px;
+        top: 2450px;
+        border-radius: 24px;   
+    }
+    .fs{
+        position: absolute;
+        width: 293px;
+        height: 17px;
+        left: 10px;
+        top: 2813px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+    
+        color: #828282;
+    }
+    .sh{
+        position: absolute;
+        width: 341px;
+        height: 30px;
+        left: 10px;
+        top: 2830px;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #333333;
+    }
+    .photo2{
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 10px;
+        top: 2896px;
+        border-radius: 24px;
+    }
+    .ux{
+        position: absolute;
+        width: 121px;
+        height: 17px;
+        left: 10px;
+        top: 3259px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+    
+        color: #828282;
+    }
+    .onboard{
+        position: absolute;
+        width: 326px;
+        height: 23px;
+        left: 10px;
+        top: 3276px;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #333333;
+    }
+    .photo3{
+        position: absolute;
+        width: 351px;
+        height: 361px;
+        left: 10px;
+        top: 3336px;
+    
+        border-radius: 24px;
+    }
+    .ma{
+        position: absolute;
+        width: 120px;
+        height: 17px;
+        left: 13px;
+        top: 3711px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+    
+        color: #828282;
+    }
+    .bs{
+        position: absolute;
+        width: 239px;
+        height: 30px;
+        left: 13px;
+        top: 3728px;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #333333;
+    }
+    .photo4{
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 10px;
+        top: 3795px;
+    
+        border-radius: 24px;
+    }
+    .fea{
+        position: absolute;
+        width: 198px;
+        height: 17px;
+        left: 10px;
+        top: 4157px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+    
+        color: #828282;
+    }
+    .jp{
+        position: absolute;
+        width: 342px;
+        height: 29px;
+        left: 10px;
+        top: 4174px;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #333333;
+    }
+    .seemore{
+        position: absolute;
+        width: 85px;
+        height: 27px;
+        left: 10px;
+        top: 4240px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #2D9CDB;
+    }
+    .seemore1{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 103px;
+        top: 4242px;
+        background: #2D9CDB;
+        cursor: pointer;
+    }
+    .seemore1:hover{
+        background-color:rgb(6, 108, 190); ;
+    }
+    
+      /*........ styling the Team part........*/
+
+    .teamw{
+        position: absolute;
+        width: 280px;
+        height: 27px;
+        left: 10px;
+        top: 4367px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #EB5757;
+    }
+    .h3b{
+        position: absolute;
+        width: 280px;
+        height: 162px;
+        left: 10px;
+        top: 4401px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 54px;
+    
+        color: #333333;
+    }
+    .teamspec{
+        position: absolute;
+        width: 273px;
+        height: 48px;
+        left: 10px;
+        top: 4593px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4F4F4F;
+    }
+    .person3{
+        position: absolute;
+        width: 178px;
+        height: 178px;
+        left: 10px;
+        top: 4725px;
+    
+        background: #C4C4C4;
+        border-radius: 24px;
+    }
+    .person1{
+        position: absolute;
+        width: 144px;
+        height: 144px;
+        left: 197px;
+        top: 4661px;
+    
+        background: #C4C4C4;
+        border-radius: 24px;
+    }
+    .person2{
+        position: absolute;
+        width: 162px;
+        height: 167px;
+        left: 197px;
+        top: 4814px;
+    
+        background: #C4C4C4;
+        border-radius: 24px;
+    }
+    .teamf{
+        position: absolute;
+        width: 351px;
+        height: 180px;
+        left: 10px;
+        top: 5082px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .person4{
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        left: 10px;
+        top: 5289px;
+    
+        background: #C4C4C4;
+        border-radius: 12px;
+    }
+    .ct{
+        position: absolute;
+        width: 140px;
+        height: 36px;
+        left: 122px;
+        top: 5293px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #333333;
+    }
+    .ctpost{
+        position: absolute;
+        width: 191px;
+        height: 27px;
+        left: 122px;
+        top: 5341px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #828282;
+    }
+    
+     /*........ styling the Footer........*/
+
+     .fbackground{
+        position: absolute;
+        width: 377px;
+        height: 693px;
+        left: -2px;
+        top: 5471px;
+    
+        background: #100E1D;
+    }
+    ul{
+        position: absolute;
+        width: 100px;
+        height: 180px;
+        left: 39px;
+        top: 5507px;
+        padding-left: 0px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 200%;
+        list-style: none; 
+    }
+    li:hover{
+        background-color: #2D9CDB;
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .logo2{
+        position: absolute;
+        width: 70px;
+        height: 53px;
+        left: 39px;
+        top: 5751px;
+        font-family: "Heebo";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 53px;
+    
+        color: #F2F2F2;
+    }
+    .ig{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 39px;
+        top: 5811px;
+        cursor: pointer;
+    }
+    .li{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 74px;
+        top: 5811px;
+        cursor: pointer;
+    }
+    .twi{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 109px;
+        top: 5813px;
+        cursor: pointer;
+    }
+    .wc2{
+        position: absolute;
+        width: 232px;
+        height: 21px;
+        left: 42px;
+        top: 5901px;
+        font-size: 10px;
+        line-height: 15px;
+    
+        color: #828282;
+    }
+    .email2{
+        position: absolute;
+        width: 291px;
+        height: 47px;
+        left: 42px;
+        top: 5922px;
+        font-family: "Poppins";
+        font-weight: 500;
+        background: #F2F2F2;
+        border-radius: 14px;
+        padding-left: 16px;
+        border: none;
+        outline: none;
+    }
+    .join2{
+        position: absolute;
+        width: 71px;
+        height: 39px;
+        left: 275px;
+        top: 5927px;
+    
+        border: none;
+        background: #2D9CDB;
+        border-radius: 12px;
+        cursor: pointer;
+    
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #F2F2F2;
+    }
+    p{
+        position: absolute;
+        width: 287px;
+        height: 17px;
+        top: 6123px;
+        left: 44px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #F2F2F2;
+        text-align: center;
+    }
+    
+}
